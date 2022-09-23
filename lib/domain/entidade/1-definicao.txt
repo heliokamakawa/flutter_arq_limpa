@@ -1,0 +1,9 @@
+nesta camada colocamos regras de negócio
+ - regras essenciais para que o "negócio" funcione
+não depende de tecnologia (framework, SGBD)
+não depende da camada externa
+regras que são aplicadas mesmo sem um software
+ - assim, não colocamos regras de aplicação
+ - esta camada não sofre inpacto com mudanças de regras de aplicação
+
+

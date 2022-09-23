@@ -1,0 +1,26 @@
+hora não pode ser negativo
+hora não pode exceder 24
+minuto não pode ser negativo
+minuto não pode exceder 60
+hora errado deve gerar um erro de domínio
+minuto errado deve gerar um erro de domínio
+
+hora com 7 na entrada deve gerar erro  
+hora com 10 na saída deve gerar erro 
+erro de hora deve gerar erro de domínio
+calcular os minutos de atraso
+calcular os minutos de saída antecipada
+calcular o total de perca de aula
+entrada antecipada não pode justificar saída antecipada
+saída tardia não pode justificar a entrada tardia
+definir conceito
+- 0 ou menos → conceito A
+- 1 à 5 → conceito B
+- 6 à 15 → conceito C
+- 16 em diante → conceito D
+
+Projeto
+- fundamento; 
+- compreensao; 
+- complexidade; 
+- originalidade; 

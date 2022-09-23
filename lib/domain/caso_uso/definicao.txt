@@ -1,0 +1,4 @@
+nesta camada colocamos regras da aplicação
+programação relacionado a automação
+não depende de tecnologia (framework, SGBD)
+não depende da camada externa
