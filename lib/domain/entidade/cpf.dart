@@ -1,7 +1,7 @@
 class Cpf {
   String cpf;
   final String mensagemCPFInvalido = 'CPF inválido.';
-  final String mensagemComplimentoComMascara = 'CPF com máscara deve possuir 14 dígitos.';
+  final String mensagemComprimentoComMascara = 'CPF com máscara deve possuir 14 dígitos.';
 
   Cpf(this.cpf){
     //if(!validarCPF()) throw Exception('CPF inválido');
@@ -10,14 +10,14 @@ class Cpf {
   bool validarCPF(){
     return 
       validarCaracteres()
-      && validarComplimentoComMascara();
+      && validarComprimentoComMascara();
   }
 
   bool validarCaracteres(){
     return cpf.contains('.') && cpf.contains('-');
   }
 
-  bool validarComplimentoComMascara(){
+  bool validarComprimentoComMascara(){
     return cpf.length == 14;
   }
 
@@ -26,7 +26,7 @@ class Cpf {
     return somenteNumero;
   }
   
-  bool validarComplimentoSemMascara(){
+  bool validarComprimentoSemMascara(){
     return somenteNumero().toString().length == 11;
   }
 
